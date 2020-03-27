@@ -50,9 +50,4 @@ public class LengthOfLongestSubstring {
         return ans;
     }
 
-    public static void main(String[] args) {
-        int aab = new LengthOfLongestSubstring().lengthOfLongestSubstring("aabb");
-        System.out.print(aab);
-    }
-
 }
