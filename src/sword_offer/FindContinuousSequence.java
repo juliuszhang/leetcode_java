@@ -29,7 +29,6 @@ public class FindContinuousSequence {
         //滑动窗口
         List<Integer> window = new LinkedList<>();
         int sum = 0;
-        int start = 0;
         int i = 1;
         List<List<Integer>> ansList = new ArrayList<>();
         while (i <= target) {
